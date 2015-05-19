@@ -1,0 +1,27 @@
+{
+  "name": "permutation",
+  "version": "0.0.1",
+  "description": "permutation utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/permutation.git"
+  },
+  "keywords": [
+    "permutation",
+    "random"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/permutation/issues"
+  },
+  "homepage": "https://github.com/zoubin/permutation#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  }
+}
