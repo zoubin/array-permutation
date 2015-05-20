@@ -124,7 +124,14 @@ function range(low, high, step) {
     high = +high || 0;
     step = +step || 1;
     var ret = [];
-    while (low < high) {
+    var inc = step > 0;
+    while (true) {
+        if (inc && low >= high) {
+            break;
+        }
+        if (!inc && low <= high) {
+            break;
+        }
         ret.push(low);
         low = low + step;
     }
