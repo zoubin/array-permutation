@@ -1,5 +1,5 @@
 {
-  "name": "permutation",
+  "name": "array-permutation",
   "version": "0.0.1",
   "description": "permutation utils",
   "main": "index.js",
@@ -8,18 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoubin/permutation.git"
+    "url": "git+https://github.com/zoubin/array-permutation.git"
   },
   "keywords": [
+    "array",
     "permutation",
     "random"
   ],
   "author": "zoubin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoubin/permutation/issues"
+    "url": "https://github.com/zoubin/array-permutation/issues"
   },
-  "homepage": "https://github.com/zoubin/permutation#readme",
+  "homepage": "https://github.com/zoubin/array-permutation#readme",
   "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^4.0.0"
