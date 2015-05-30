@@ -5,34 +5,41 @@ permutation utils. Return `Iterable` for iterating all permutations of an array.
 
 ```javascript
 var permutation = require('array-permutation');
+var range = permutation.range;
+var random = permutation.random;
+var shuffle = permutation.shuffle;
 ```
-### permutation.range(n)
+### range(n)
 
 Return [0,..,n-1]
 
-### permutation.range(low, high, step)
+### range(low, high, step)
 
 Return [low, low + step, low + 2 * step,..., low + k * step], with `low + k * step < high`
 
-### permutation.random(n)
+### random(n)
 
-Return an array populated with a random permutation of `permutation.range(n)`
+Return an array populated with a random permutation of `range(n)`
 
-### permutation.random(low, high, step)
+### random(low, high, step)
 
-Return an array populated with a random permutation of `permutation.range(low, high, step)`
+Return an array populated with a random permutation of `range(low, high, step)`
 
 ### permutation(n)
 
-Return an iterable, for iterating all permutations of `permutation.range(n)`
+Return an iterable, for iterating all permutations of `range(n)`
 
 ### permutation(low, high, step)
 
-Return an iterable, for iterating all permutations of `permutation.range(low, high, step)`
+Return an iterable, for iterating all permutations of `range(low, high, step)`
 
-### permutation(arr)
+### permutation([])
 
 Return an iterable, for iterating all permutations of the given array.
+
+### shuffle([])
+
+Shuffle the given array, and return it.
 
 ## Example
 
