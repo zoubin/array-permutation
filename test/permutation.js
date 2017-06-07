@@ -18,6 +18,7 @@ test('permutation([])', function (t) {
         actual.push(i);
     }
     t.same(actual, results);
+    t.same(_perm([1]), [[1]]);
     t.end();
 });
 
