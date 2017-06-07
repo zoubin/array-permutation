@@ -1,6 +1,6 @@
 {
   "name": "array-permutation",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "permutation utils",
   "main": "index.js",
   "scripts": {
